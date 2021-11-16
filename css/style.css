@@ -1,0 +1,142 @@
+body {
+    background-color: #c2c2c2;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    
+    text-align: center;
+    font-size: 50px;
+}
+
+#maintxt {
+    text-align: center;
+    font-size: 35px;
+}
+
+#hex {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+#clr {
+    background: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+#solution {
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#play {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    display: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#points {
+    font-size: 20px;
+    position: absolute;
+    z-index: 100;
+    top: 7em;
+    right: 1em;
+}
+
+#pnt {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.notc {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.body1,
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-btn {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    background: white;
+    margin: 5px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.social-btn span {
+    width: 0px;
+    overflow: hidden;
+    transition: 1s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.social-btn:hover {
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-btn:hover span {
+    padding: 2px;
+    width: max-content;
+    
+}
+
+#github {
+    fill: #333;
+}
