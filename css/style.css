@@ -60,6 +60,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
+    background-color: white;
 }
 
 #play {
@@ -72,6 +73,7 @@ body {
     display: none;
     padding: 10px;
     cursor: pointer;
+    background-color: white;
 }
 
 #points {
@@ -90,7 +92,7 @@ body {
 
 .notc {
     background-color: white;
-    padding: 5px;
+    padding: 4px;
     border-radius: 10px;
 }
 .body1,
