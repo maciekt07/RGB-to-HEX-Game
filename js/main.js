@@ -1,5 +1,4 @@
 var points = 0
-github = "https://github.com/maciekkoks/"
 
 function main() {
     document.getElementById("submit").style.display = "block"
@@ -59,3 +58,12 @@ function submit() {
     }
     document.getElementById("hex").value = "";
 }
+// Google Analytics
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'G-X6TB2W56QL');
