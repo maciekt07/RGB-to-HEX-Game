@@ -1,5 +1,5 @@
 var points = 0
-github = "https://github.com/maciekkoks/"
+const github = "https://github.com/maciekkoks/"
 
 function main() {
     document.getElementById("submit").style.display = "block"
