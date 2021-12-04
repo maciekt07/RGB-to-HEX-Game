@@ -48,7 +48,7 @@ function submit() {
     const hex = document.getElementById("hex").value
     document.getElementById("play").style.display = "block"
     if (hex != sol) {
-        document.getElementById("solution").innerHTML = "The answer is not correct. The correct answer was: " + '<span class="notc">' + sol + "</span>";
+        document.getElementById("solution").innerHTML = "<br>" + "The answer is not correct. The correct answer was: " + '<span class="notc">' + sol + "</span>";
         document.getElementById("submit").style.display = "none"
 
     }
