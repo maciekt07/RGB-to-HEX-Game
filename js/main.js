@@ -5,6 +5,7 @@ function main() {
     document.getElementById("submit").style.display = "block"
     document.getElementById("play").style.display = "none"
     document.getElementById("pnt").innerHTML = points
+    document.getElementById("hex").value = "";
 
     function r(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
