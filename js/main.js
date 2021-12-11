@@ -52,7 +52,7 @@ function submit() {
         document.getElementById("submit").style.display = "none"
 
     }
-    if (hex == sol) {
+    if (hex == sol || hex == sol.toUpperCase()) {
         document.getElementById("solution").innerHTML = "The answer is correct. Good job! ☺";
         points++
         document.getElementById("pnt").innerHTML = points
